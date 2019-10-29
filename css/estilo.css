@@ -1,0 +1,61 @@
+
+#prim
+{
+	background-color: white;
+	height: 650px;
+}
+
+#segu
+{
+	background-color: green;
+	height: 650px;
+}
+
+#terc
+{
+	background-color: red;
+	height: 650px;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+	
+#prim
+{
+	background-color: red;
+	height: 650px;
+}
+
+#segu
+{
+	background-color: white;
+	height: 650px;
+}
+
+#terc
+{
+	background-color: green;
+	height: 650px;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+	
+#prim
+{
+	background-color: green;
+	height: 599px;
+}
+
+#segu
+{
+	background-color: white;
+	height: 599px;
+}
+
+#terc
+{
+	background-color: red;
+	height: 599px;
+}
+}
+
